@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* CSS Document */
+html{
+	background-color:#fac8de;
+	font-family: 'Kodchasan', sans-serif;
+	width:auto;
+	font-size: 18px;
+	background-image: url("images/pink_blue_background.jpg");
+	background-size: cover;
+	background-position:bottom;
+	
+}
+body{
+	background-color:#FFFCF2;
+	margin:0px 50px 50px 50px;
+	padding: 20px 20px 20px 20px;
+	
+}
+nav{
+	text-align: center;
+  	top: 0;
+  	background-color: #c8e4fa;
+  	position: sticky;
+	padding: 50px 50px 50px 50px;
+}
+nav ul{
+	text-decoration:none;
+	text-align:center;
+	margin:auto;
+	
+	
+}
+nav li{
+	padding-top: 15px 15px 30px 30px;
+	transition-property: all;
+	transition-duration: .8s;
+	display:inline-block;
+	
+}
+nav a{
+	color: brown;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: 400;
+	transition-property: all;
+	
+}
+nav li:hover{
+	
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border: solid #91A8ED .5px;
+  	
+}
+h1{
+	font-family: 'Cormorant Garamond', serif;
+	color: royalblue;
+	font-size: 56px;
+	padding: 200px 250px;
+	padding-bottom: 300px;
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+	font-size: 36;
+}
+#about_me p{
+	color: #448BD3;
+	word-spacing: 1px;
+	padding-bottom: 200px;
+}
+
+input[type=text], select, textarea {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing:border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  display: block;
+  resize:both;
+}
+input[type=email], select, textarea {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical horizontal;
+  display: block;
+}
+
+input[type=submit] {
+  background-color: darkolivegreen;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+	 display: block;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.box{
+margin:0 auto; 
+width:auto;
+padding:20px;
+background:#EB9C9E;
+border:2px solid grey;
+}
+
+
+.grid_work{
+	display: grid;
+	grid-auto-flow: column;
+	align-content: center;
+	padding-bottom: 300px;
+	grid-gap: 5px;
+	
+	
+}
